@@ -2,7 +2,6 @@
 	"name": "@ctx-core/pagination",
 	"version": "8.0.157",
 	"description": "ctx-core pagination",
-	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
