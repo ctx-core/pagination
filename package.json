@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/pagination",
-	"version": "8.0.158",
+	"version": "8.0.159",
 	"description": "ctx-core pagination",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -24,11 +24,11 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^15.5.21",
-		"@ctx-core/dom": "^5.13.11",
-		"@ctx-core/fontawesome": "^10.2.80",
+		"@ctx-core/dom": "^5.13.12",
+		"@ctx-core/fontawesome": "^10.2.81",
 		"@ctx-core/logger": "^3.1.17",
-		"@ctx-core/ripple-effect": "^7.1.79",
-		"@ctx-core/sass": "^6.4.33",
+		"@ctx-core/ripple-effect": "^7.1.80",
+		"@ctx-core/sass": "^6.4.34",
 		"svelte": "^3.23.0"
 	},
 	"gitHead": "a23482208151d047fb4d98538746d237db9c750e"
