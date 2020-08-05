@@ -29,7 +29,7 @@
 		"@ctx-core/logger": "^3.1.21",
 		"@ctx-core/ripple-effect": "^7.1.108",
 		"@ctx-core/sass": "^6.4.55",
-		"svelte": "^3.24.0"
+		"svelte": "^3.24.1"
 	},
 	"gitHead": "607a7a824e5739cddf9fc84adb2b380afcadf2a8"
 }
