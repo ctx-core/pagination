@@ -26,7 +26,6 @@
 		"@ctx-core/array": "^16.0.13",
 		"@ctx-core/dom": "^6.0.22",
 		"@ctx-core/fontawesome": "^10.2.127",
-		"@ctx-core/logger": "^3.1.23",
 		"@ctx-core/ripple-effect": "^7.1.113",
 		"@ctx-core/sass": "^6.4.58",
 		"svelte": "^3.24.1"
