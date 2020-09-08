@@ -23,7 +23,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^16.0.15",
+		"@ctx-core/array": "^17.0.0",
 		"@ctx-core/dom": "^6.0.28",
 		"@ctx-core/fontawesome": "^10.2.138",
 		"@ctx-core/ripple-effect": "^7.1.116",
