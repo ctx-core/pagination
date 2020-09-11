@@ -28,7 +28,7 @@
 		"@ctx-core/fontawesome": "^10.2.141",
 		"@ctx-core/ripple-effect": "^7.1.118",
 		"@ctx-core/sass": "^7.1.8",
-		"svelte": "^3.24.1"
+		"svelte": "^3.25.0"
 	},
 	"gitHead": "14bb0eefd2cd948d12ece0c361976db4ace2c1a4"
 }
