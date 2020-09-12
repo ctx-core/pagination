@@ -1,5 +1,5 @@
 <script>
-import { writable } from 'svelte/store'
+import type { Writable } from 'svelte/store'
 import RippleEffect, { __click__ripple_effect } from '@ctx-core/ripple-effect/RippleEffect.svelte'
 import { __click__anchor__scroll } from '@ctx-core/dom'
 import { each } from '@ctx-core/array'
