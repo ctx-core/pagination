@@ -3,7 +3,7 @@
 	"version": "8.0.237",
 	"description": "ctx-core pagination",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"exec": "$@"
 	},
 	"repository": {
 		"type": "git",
@@ -30,5 +30,5 @@
 		"@ctx-core/sass": "^7.1.10",
 		"svelte": "^3.25.0"
 	},
-	"gitHead": "309e276324b4fec8a8ccfb0ed94ac64b996d56b1"
+	"gitHead": "6317e4c9ac4fd758dcc22ad4b587d9053e9e89fd"
 }
