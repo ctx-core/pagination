@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/pagination",
-	"version": "8.0.237",
+	"version": "8.0.238",
 	"description": "ctx-core pagination",
 	"scripts": {
 		"exec": "$@"
