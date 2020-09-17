@@ -1,34 +1,34 @@
 {
-	"name": "@ctx-core/pagination",
-	"version": "8.0.238",
-	"description": "ctx-core pagination",
-	"keywords": [
-		"ctx-core",
-		"pagination"
-	],
-	"homepage": "https://github.com/ctx-core/pagination#readme",
-	"bugs": {
-		"url": "https://github.com/ctx-core/pagination/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/pagination/issues"
-	},
-	"license": "Apache-2.0",
-	"author": "Brian Takita",
-	"scripts": {
-		"exec": "$@"
-	},
-	"dependencies": {
-		"@ctx-core/array": "workspace:*",
-		"@ctx-core/dom": "workspace:*",
-		"@ctx-core/fontawesome": "workspace:*",
-		"@ctx-core/ripple-effect": "workspace:*",
-		"@ctx-core/sass": "workspace:*",
-		"svelte": "^3.25.0"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"gitHead": "6317e4c9ac4fd758dcc22ad4b587d9053e9e89fd"
+  "name": "@ctx-core/pagination",
+  "version": "8.0.239",
+  "description": "ctx-core pagination",
+  "keywords": [
+    "ctx-core",
+    "pagination"
+  ],
+  "homepage": "https://github.com/ctx-core/pagination#readme",
+  "bugs": {
+    "url": "https://github.com/ctx-core/pagination/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctx-core/pagination/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "Brian Takita",
+  "scripts": {
+    "exec": "$@"
+  },
+  "dependencies": {
+    "@ctx-core/array": "workspace:*",
+    "@ctx-core/dom": "workspace:*",
+    "@ctx-core/fontawesome": "workspace:*",
+    "@ctx-core/ripple-effect": "workspace:*",
+    "@ctx-core/sass": "workspace:*",
+    "svelte": "~3.25.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "6317e4c9ac4fd758dcc22ad4b587d9053e9e89fd"
 }
