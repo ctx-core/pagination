@@ -28,6 +28,9 @@
 		"@ctx-core/sass": "workspace:*",
 		"svelte": "~3.25.1"
 	},
+	"devDependencies": {
+		"typescript": "^4.0.3"
+	},
 	"publishConfig": {
 		"access": "public"
 	}
