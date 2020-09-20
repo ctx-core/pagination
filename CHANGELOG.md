@@ -1,5 +1,17 @@
 # @ctx-core/pagination
 
+## 8.0.243
+
+### Patch Changes
+
+- fix: install issues: using explicit workspace: versioning
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.2
+  - @ctx-core/dom@7.0.2
+  - @ctx-core/fontawesome@11.0.2
+  - @ctx-core/ripple-effect@8.0.1
+  - @ctx-core/sass@8.0.2
+
 ## 8.0.242
 
 ### Patch Changes
