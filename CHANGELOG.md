@@ -1,5 +1,14 @@
 # @ctx-core/pagination
 
+## 8.0.261
+
+### Patch Changes
+
+- @ctx-core/array@19.0.10
+- @ctx-core/fontawesome@11.0.19
+- @ctx-core/sass@8.0.11
+- @ctx-core/dom@7.0.16
+
 ## 8.0.260
 
 ### Patch Changes
