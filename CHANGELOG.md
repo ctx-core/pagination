@@ -1,5 +1,16 @@
 # @ctx-core/pagination
 
+## 8.0.269
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.13
+  - @ctx-core/fontawesome@11.0.27
+  - @ctx-core/sass@8.0.15
+  - @ctx-core/dom@7.0.24
+  - @ctx-core/ripple-effect@8.0.9
+
 ## 8.0.268
 
 ### Patch Changes
