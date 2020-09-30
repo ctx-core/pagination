@@ -1,5 +1,17 @@
 # @ctx-core/pagination
 
+## 8.0.300
+
+### Patch Changes
+
+- fix: tsc build issues
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.0.3
+  - @ctx-core/dom@7.0.46
+  - @ctx-core/fontawesome@11.0.50
+  - @ctx-core/ripple-effect@8.0.19
+
 ## 8.0.299
 
 ### Patch Changes
