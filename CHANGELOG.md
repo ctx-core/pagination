@@ -1,5 +1,12 @@
 # @ctx-core/pagination
 
+## 8.0.353
+
+### Patch Changes
+
+- @ctx-core/dom@7.1.37
+- @ctx-core/ripple-effect@8.0.58
+
 ## 8.0.352
 
 ### Patch Changes
