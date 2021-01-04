@@ -1,5 +1,15 @@
 # @ctx-core/pagination
 
+## 8.0.354
+
+### Patch Changes
+
+- svelte: 3.31.1 -> 3.31.2
+- Updated dependencies [undefined]
+  - @ctx-core/fontawesome@11.0.99
+  - @ctx-core/store@23.1.25
+  - @ctx-core/dom@7.1.38
+
 ## 8.0.353
 
 ### Patch Changes
