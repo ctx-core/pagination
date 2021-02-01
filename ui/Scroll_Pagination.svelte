@@ -1,10 +1,6 @@
 <script>
-import type { Writable } from '@ctx-core/store'
 import RippleEffect, { __click__ripple_effect } from '@ctx-core/ripple-effect/RippleEffect.svelte'
-import { __click__anchor__scroll } from '@ctx-core/dom'
-import { each } from '@ctx-core/array'
-import FA_arrow_up_solid from '@ctx-core/fontawesome/ui/FA-arrow-up-solid.svelte'
-import FA_arrow_down_solid from '@ctx-core/fontawesome/ui/FA-arrow-down-solid.svelte'
+import { onclick_scroll_anchor } from '@ctx-core/dom'
 export let prev_section = null
 export let next_section = null
 export let a1__section = []
@@ -37,7 +33,7 @@ function update__navigation__section() {
 	next_section = null
 }
 function __click__navigation(event) {
-	__click__anchor__scroll(event)
+	onclick_scroll_anchor(event)
 	if (a1__section) {
 		if (color__ripple) __click__ripple_effect(event)
 		update__navigation__section()
@@ -61,7 +57,7 @@ function set__loaded() {
 
 <RippleEffect></RippleEffect>
 
-<div class="Pagination__Scroll {$$props.class||''}">
+<div class="Scroll_Pagination {$$props.class||''}">
 	<div class="outer-container">
 		{#if prev_section}
 			<a
@@ -103,7 +99,7 @@ function set__loaded() {
 </div>
 
 <style type="text/scss">
-:global(.Pagination__Scroll) {
+:global(.Scroll_Pagination) {
 	position: fixed;
 	bottom: 0;
 	right: 0;

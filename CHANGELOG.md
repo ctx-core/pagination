@@ -1,5 +1,19 @@
 # @ctx-core/pagination
 
+## 9.1.0
+
+### Minor Changes
+
+- ui directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/ripple-effect@9.1.0
+  - @ctx-core/dom@8.1.0
+  - @ctx-core/fontawesome@12.0.8
+
 ## 9.0.7
 
 ### Patch Changes
