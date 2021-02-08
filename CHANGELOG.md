@@ -1,5 +1,16 @@
 # @ctx-core/pagination
 
+## 9.1.15
+
+### Patch Changes
+
+- @ctx-core/array@20.1.6
+- @ctx-core/dom@8.1.9
+- @ctx-core/store@24.0.10
+- @ctx-core/fontawesome@12.0.19
+- @ctx-core/sass@9.1.11
+- @ctx-core/ripple-effect@9.1.4
+
 ## 9.1.14
 
 ### Patch Changes
