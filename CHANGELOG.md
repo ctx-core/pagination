@@ -1,5 +1,12 @@
 # @ctx-core/pagination
 
+## 9.1.46
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/fontawesome@12.0.44
+
 ## 9.1.45
 
 ### Patch Changes
