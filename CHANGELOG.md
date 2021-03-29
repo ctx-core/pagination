@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 9.1.52
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.2
+  - @ctx-core/dom@8.2.14
+  - @ctx-core/fontawesome@12.0.50
+  - @ctx-core/ripple-effect@9.1.20
+  - @ctx-core/sass@9.2.13
+  - @ctx-core/store@24.1.15
+
 ## 9.1.51
 
 ### Patch Changes
