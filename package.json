@@ -30,7 +30,7 @@
 		"@ctx-core/ripple-effect": "workspace:^9.1.21",
 		"@ctx-core/sass": "workspace:^9.2.14",
 		"@ctx-core/store": "workspace:^24.1.16",
-		"svelte": "3.35.0"
+		"svelte": "3.37.0"
 	},
 	"devDependencies": {
 		"typescript": "^4.2.3"
