@@ -26,9 +26,9 @@
 	"dependencies": {
 		"@ctx-core/array": "workspace:^20.2.4",
 		"@ctx-core/dom": "workspace:^8.2.17",
-		"@ctx-core/fontawesome": "workspace:^12.0.53",
+		"@ctx-core/fontawesome": "workspace:^12.0.54",
 		"@ctx-core/ripple-effect": "workspace:^9.1.22",
-		"@ctx-core/sass": "workspace:^9.2.16",
+		"@ctx-core/sass": "workspace:^9.2.17",
 		"@ctx-core/store": "workspace:^24.1.18",
 		"svelte": "3.37.0"
 	},
