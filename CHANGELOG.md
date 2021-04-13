@@ -1,5 +1,13 @@
 # @ctx-core/pagination
 
+## 9.1.58
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.2.22
+
 ## 9.1.57
 
 ### Patch Changes
