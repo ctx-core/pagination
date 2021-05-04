@@ -24,12 +24,12 @@
 	"module": "./src/index.js",
 	"types": "./src/index.ts",
 	"dependencies": {
-		"@ctx-core/array": "workspace:^20.2.20",
-		"@ctx-core/dom": "workspace:^8.2.50",
+		"@ctx-core/array": "workspace:^20.2.21",
+		"@ctx-core/dom": "workspace:^8.2.51",
 		"@ctx-core/fontawesome": "workspace:^12.0.63",
 		"@ctx-core/ripple-effect": "workspace:^9.1.25",
 		"@ctx-core/sass": "workspace:^9.2.26",
-		"@ctx-core/store": "workspace:^24.7.9",
+		"@ctx-core/store": "workspace:^24.7.10",
 		"svelte": "3.38.1"
 	},
 	"devDependencies": {
