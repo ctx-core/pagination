@@ -1,5 +1,13 @@
 # @ctx-core/pagination
 
+## 9.1.91
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/sass@9.3.2
+
 ## 9.1.90
 
 ### Patch Changes
