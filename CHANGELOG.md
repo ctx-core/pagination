@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 9.2.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.4.1
+  - @ctx-core/dom@8.4.1
+  - @ctx-core/fontawesome@12.2.1
+  - @ctx-core/ripple-effect@9.3.1
+  - @ctx-core/sass@9.4.1
+  - @ctx-core/store@24.9.1
+
 ## 9.2.0
 
 ### Minor Changes
