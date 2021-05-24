@@ -1,5 +1,21 @@
 # @ctx-core/pagination
 
+## 9.2.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.4.0
+  - @ctx-core/dom@8.4.0
+  - @ctx-core/fontawesome@12.2.0
+  - @ctx-core/ripple-effect@9.3.0
+  - @ctx-core/sass@9.4.0
+  - @ctx-core/store@24.9.0
+
 ## 9.1.95
 
 ### Patch Changes
