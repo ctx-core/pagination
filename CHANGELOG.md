@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 9.1.95
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.10
+  - @ctx-core/dom@8.3.10
+  - @ctx-core/fontawesome@12.1.4
+  - @ctx-core/ripple-effect@9.2.3
+  - @ctx-core/sass@9.3.8
+  - @ctx-core/store@24.8.10
+
 ## 9.1.94
 
 ### Patch Changes
