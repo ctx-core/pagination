@@ -1,5 +1,21 @@
 # @ctx-core/pagination
 
+## 9.3.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.5.0
+  - @ctx-core/dom@8.5.0
+  - @ctx-core/fontawesome@12.3.0
+  - @ctx-core/ripple-effect@9.4.0
+  - @ctx-core/sass@9.5.0
+  - @ctx-core/store@24.10.0
+
 ## 9.2.2
 
 ### Patch Changes

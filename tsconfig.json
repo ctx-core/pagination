@@ -1,0 +1,43 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"target": "ES2018",
+		"composite": true,
+		"declaration": true,
+		"sourceMap": true,
+		"noEmitOnError": true,
+		"noErrorTruncation": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"noImplicitAny": true,
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"typeRoots": [
+			"../../../node_modules/@types",
+			"../../node_modules/@types",
+			"node_modules/@types"
+		],
+		"rootDir": "src",
+		"outDir": "dist",
+		"mapRoot": "dist",
+		"declarationDir": "dist",
+		"lib": [
+			"dom",
+			"ES2020"
+		],
+		"types": [
+			"node"
+		],
+		"importsNotUsedAsValues": "error",
+		"strict": true
+	},
+	"exclude": [
+		"node_modules",
+		"dist"
+	],
+	"references": []
+}
