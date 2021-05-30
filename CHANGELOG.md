@@ -1,5 +1,23 @@
 # @ctx-core/pagination
 
+## 10.0.0
+
+### Major Changes
+
+- \$ suffix for stores
+- \_ suffix for factory functions
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.0.0
+  - @ctx-core/dom@9.0.0
+  - @ctx-core/fontawesome@13.0.0
+  - @ctx-core/ripple-effect@10.0.0
+  - @ctx-core/sass@10.0.0
+  - @ctx-core/store@25.0.0
+
 ## 9.3.2
 
 ### Patch Changes

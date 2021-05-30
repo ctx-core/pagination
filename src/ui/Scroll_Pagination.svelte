@@ -3,18 +3,18 @@ import RippleEffect, { __click__ripple_effect } from '@ctx-core/ripple-effect/Ri
 import { onclick_scroll_anchor } from '@ctx-core/dom'
 export let prev_section = null
 export let next_section = null
-export let a1__section = []
-export let color__ripple = null
-const __loaded__prev_section = writable(null)
-const __loaded__next_section = writable(null)
-let link__prev_section, link__next_section
-$: a1__section, update__navigation__section()
-update__navigation__section()
-function update__navigation__section() {
-	unset__loaded()
-	if (a1__section) {
-		for (let i = 0; i < a1__section.length; i += 1) {
-			const section = a1__section[i]
+export let section_a = []
+export let ripple_color = null
+const prev_section_loaded$ = writable(null)
+const next_section_loaded$ = writable(null)
+let prev_section_link, next_section_link
+$: section_a, update_section_navigation()
+update_section_navigation()
+function update_section_navigation() {
+	unset_loaded()
+	if (section_a) {
+		for (let i = 0; i < section_a.length; i += 1) {
+			const section = section_a[i]
 			const BoundingClientRect = section.getBoundingClientRect()
 			const { top } = BoundingClientRect
 			const bottom = BoundingClientRect.bottom - 10
@@ -22,9 +22,9 @@ function update__navigation__section() {
 				prev_section =
 					top < 0
 					? section
-					: a1__section[i - 1]
-				next_section = a1__section[i + 1]
-				set__loaded()
+					: section_a[i - 1]
+				next_section = section_a[i + 1]
+				set_loaded()
 				return
 			}
 		}
@@ -32,28 +32,28 @@ function update__navigation__section() {
 	prev_section = null
 	next_section = null
 }
-function __click__navigation(event) {
+function onclick_navigation(event) {
 	onclick_scroll_anchor(event)
-	if (a1__section) {
-		if (color__ripple) __click__ripple_effect(event)
-		update__navigation__section()
+	if (section_a) {
+		if (ripple_color) __click__ripple_effect(event)
+		update_section_navigation()
 	}
 }
-function unset__loaded() {
-	__loaded__prev_section.set(false)
-	__loaded__next_section.set(false)
+function unset_loaded() {
+	prev_section_loaded$.set(false)
+	next_section_loaded$.set(false)
 }
-function set__loaded() {
-	if (link__prev_section) {
-		__loaded__prev_section.set(true)
+function set_loaded() {
+	if (prev_section_link) {
+		prev_section_loaded$.set(true)
 	}
-	if (link__next_section) {
-		__loaded__next_section.set(true)
+	if (next_section_link) {
+		next_section_loaded$.set(true)
 	}
 }
 </script>
 
-<svelte:window on:scroll="{update__navigation__section}"></svelte:window>
+<svelte:window on:scroll="{update_section_navigation}"></svelte:window>
 
 <RippleEffect></RippleEffect>
 
@@ -61,12 +61,12 @@ function set__loaded() {
 	<div class="outer-container">
 		{#if prev_section}
 			<a
-				bind:this={link__prev_section}
+				bind:this={prev_section_link}
 				class="prev_section"
-				class:loaded={$__loaded__prev_section}
+				class:loaded={$prev_section_loaded$}
 				href="#{prev_section.id}"
-				{color__ripple}
-				on:click={__click__navigation}
+				{ripple_color}
+				on:click={onclick_navigation}
 			>
 				<div class="prev_section__icon section__icon">
 					<slot name="icon-up"></slot>
@@ -79,12 +79,12 @@ function set__loaded() {
 		{/if}
 		{#if next_section}
 			<a
-				bind:this={link__next_section}
+				bind:this={next_section_link}
 				class="next_section"
-				class:loaded={$__loaded__next_section}
+				class:loaded={$next_section_loaded$}
 				href="#{next_section.id}"
-				{color__ripple}
-				on:click={__click__navigation}
+				{ripple_color}
+				on:click={onclick_navigation}
 			>
 				<div class="next_section__icon section__icon">
 					<slot name="icon-down"></slot>
