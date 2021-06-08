@@ -1,5 +1,15 @@
 # @ctx-core/pagination
 
+## 10.0.19
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/fontawesome@13.0.19
+  - @ctx-core/sass@10.0.14
+  - @ctx-core/store@25.1.16
+
 ## 10.0.18
 
 ### Patch Changes
