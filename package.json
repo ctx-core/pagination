@@ -29,7 +29,7 @@
 	"dependencies": {
 		"@ctx-core/array": "workspace:^21.3.2",
 		"@ctx-core/dom": "workspace:^9.0.13",
-		"@ctx-core/fontawesome": "workspace:^13.0.21",
+		"@ctx-core/fontawesome": "workspace:^13.0.22",
 		"@ctx-core/ripple-effect": "workspace:^10.0.4",
 		"@ctx-core/sass": "workspace:^10.0.16",
 		"@ctx-core/store": "workspace:^25.1.19",
