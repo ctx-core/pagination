@@ -1,5 +1,13 @@
 # @ctx-core/pagination
 
+## 11.0.1
+
+### Patch Changes
+
+- remove npm run symlink
+- Updated dependencies [undefined]
+  - @ctx-core/ripple-effect@11.0.1
+
 ## 11.0.0
 
 ### Major Changes
