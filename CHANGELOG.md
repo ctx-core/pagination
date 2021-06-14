@@ -1,5 +1,21 @@
 # @ctx-core/pagination
 
+## 11.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.0
+  - @ctx-core/dom@10.0.0
+  - @ctx-core/fontawesome@14.0.0
+  - @ctx-core/ripple-effect@11.0.0
+  - @ctx-core/sass@11.0.0
+  - @ctx-core/store@26.0.0
+
 ## 10.0.24
 
 ### Patch Changes
