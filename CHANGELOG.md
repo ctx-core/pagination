@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 11.0.8
+
+### Patch Changes
+
+- fix: npm run clean
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.5
+  - @ctx-core/dom@10.0.4
+  - @ctx-core/fontawesome@14.0.5
+  - @ctx-core/ripple-effect@11.0.6
+  - @ctx-core/sass@11.0.7
+  - @ctx-core/store@26.0.5
+
 ## 11.0.7
 
 ### Patch Changes
