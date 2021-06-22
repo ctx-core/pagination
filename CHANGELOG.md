@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 11.0.10
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.9
+  - @ctx-core/dom@10.0.8
+  - @ctx-core/fontawesome@14.0.9
+  - @ctx-core/ripple-effect@11.0.10
+  - @ctx-core/sass@11.0.11
+  - @ctx-core/store@26.0.9
+
 ## 11.0.9
 
 ### Patch Changes
