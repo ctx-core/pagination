@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 11.0.12
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.11
+  - @ctx-core/dom@10.0.10
+  - @ctx-core/fontawesome@14.0.11
+  - @ctx-core/ripple-effect@11.0.11
+  - @ctx-core/sass@11.0.12
+  - @ctx-core/store@26.0.12
+
 ## 11.0.11
 
 ### Patch Changes
