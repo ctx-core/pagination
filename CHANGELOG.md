@@ -1,5 +1,15 @@
 # @ctx-core/pagination
 
+## 11.0.13
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/fontawesome@14.0.12
+  - @ctx-core/ripple-effect@11.0.12
+  - @ctx-core/sass@11.0.13
+
 ## 11.0.12
 
 ### Patch Changes
