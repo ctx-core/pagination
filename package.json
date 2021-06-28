@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/pagination",
-	"version": "11.0.16",
+	"version": "11.0.17",
 	"description": "ctx-core pagination",
 	"keywords": [
 		"ctx-core",
@@ -30,7 +30,7 @@
 	"dependencies": {
 		"@ctx-core/array": "workspace:^22.0.16",
 		"@ctx-core/dom": "workspace:^10.0.15",
-		"@ctx-core/fontawesome": "workspace:^14.0.16",
+		"@ctx-core/fontawesome": "workspace:^14.0.17",
 		"@ctx-core/ripple-effect": "workspace:^11.0.14",
 		"@ctx-core/sass": "workspace:^11.0.15",
 		"@ctx-core/store": "workspace:^26.0.17",
