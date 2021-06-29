@@ -28,12 +28,12 @@
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"dependencies": {
-		"@ctx-core/array": "workspace:^22.1.0",
-		"@ctx-core/dom": "workspace:^10.0.18",
+		"@ctx-core/array": "workspace:^22.1.1",
+		"@ctx-core/dom": "workspace:^10.0.19",
 		"@ctx-core/fontawesome": "workspace:^14.0.18",
 		"@ctx-core/ripple-effect": "workspace:^11.0.17",
 		"@ctx-core/sass": "workspace:^11.0.16",
-		"@ctx-core/store": "workspace:^26.0.18",
+		"@ctx-core/store": "workspace:^26.0.19",
 		"svelte": "3.38.3"
 	},
 	"devDependencies": {
