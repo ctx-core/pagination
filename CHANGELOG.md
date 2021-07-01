@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 11.0.22
+
+### Patch Changes
+
+- typescript: ^4.3.4 -> ^4.3.5
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.1.2
+  - @ctx-core/dom@10.0.20
+  - @ctx-core/fontawesome@14.0.19
+  - @ctx-core/ripple-effect@11.0.18
+  - @ctx-core/sass@11.0.17
+  - @ctx-core/store@26.0.20
+
 ## 11.0.21
 
 ### Patch Changes
