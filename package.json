@@ -29,11 +29,11 @@
 	"types": "./dist/index.d.ts",
 	"dependencies": {
 		"@ctx-core/array": "workspace:^22.1.6",
-		"@ctx-core/dom": "workspace:^10.0.25",
+		"@ctx-core/dom": "workspace:^10.0.26",
 		"@ctx-core/fontawesome": "workspace:^14.0.25",
 		"@ctx-core/ripple-effect": "workspace:^11.0.25",
 		"@ctx-core/sass": "workspace:^11.0.19",
-		"@ctx-core/store": "workspace:^26.0.25",
+		"@ctx-core/store": "workspace:^26.0.26",
 		"svelte": "3.38.3"
 	},
 	"devDependencies": {
