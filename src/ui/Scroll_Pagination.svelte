@@ -1,13 +1,14 @@
 <script>
-import RippleEffect, { __click__ripple_effect } from '@ctx-core/ripple-effect/RippleEffect.svelte'
+import { writable$ } from '@ctx-core/store'
+import { RippleEffect, onclick_ripple_effect } from '@ctx-core/ripple-effect'
 import { onclick_scroll_anchor } from '@ctx-core/dom'
 export let prev_section = null
 export let next_section = null
 export let section_a = []
 export let ripple_color = null
-const prev_section_loaded$ = writable(null)
-const next_section_loaded$ = writable(null)
-let prev_section_link, next_section_link
+const prev_section_loaded$ = writable$(null)
+const next_section_loaded$ = writable$(null)
+let prev_section_link: HTMLAnchorElement, next_section_link: HTMLAnchorElement
 $: section_a, update_section_navigation()
 update_section_navigation()
 function update_section_navigation() {
@@ -35,7 +36,7 @@ function update_section_navigation() {
 function onclick_navigation(event) {
 	onclick_scroll_anchor(event)
 	if (section_a) {
-		if (ripple_color) __click__ripple_effect(event)
+		if (ripple_color) onclick_ripple_effect(event)
 		update_section_navigation()
 	}
 }
