@@ -16,6 +16,10 @@
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
+	"type": "module",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
 	"scripts": {
 		"build": "npm run clean && npm run copy-components && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
@@ -24,9 +28,6 @@
 		"exec": "$@",
 		"prepublishOnly": "npm run build"
 	},
-	"main": "./dist/index.js",
-	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
 	"dependencies": {
 		"@ctx-core/array": "workspace:^23.0.0",
 		"@ctx-core/dom": "workspace:^11.0.0",
