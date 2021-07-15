@@ -1,5 +1,19 @@
 # @ctx-core/pagination
 
+## 12.0.1
+
+### Patch Changes
+
+- 2a6971f80: fix: "type": "module"
+- Updated dependencies [2a6971f80]
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.1
+  - @ctx-core/dom@11.0.1
+  - @ctx-core/fontawesome@15.0.1
+  - @ctx-core/ripple-effect@12.0.1
+  - @ctx-core/sass@12.0.1
+  - @ctx-core/store@27.0.1
+
 ## 12.0.0
 
 ### Major Changes
