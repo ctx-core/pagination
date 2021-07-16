@@ -1,5 +1,31 @@
 # @ctx-core/pagination
 
+## 12.0.17
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.11
+  - @ctx-core/dom@11.0.12
+  - @ctx-core/fontawesome@15.0.16
+  - @ctx-core/ripple-effect@12.0.11
+  - @ctx-core/sass@12.0.9
+  - @ctx-core/store@27.0.9
+
+## 12.0.16
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.10
+  - @ctx-core/dom@11.0.11
+  - @ctx-core/fontawesome@15.0.15
+  - @ctx-core/ripple-effect@12.0.10
+  - @ctx-core/sass@12.0.8
+  - @ctx-core/store@27.0.8
+
 ## 12.0.15
 
 ### Patch Changes
