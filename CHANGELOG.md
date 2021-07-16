@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 12.0.12
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.8
+  - @ctx-core/dom@11.0.9
+  - @ctx-core/fontawesome@15.0.12
+  - @ctx-core/ripple-effect@12.0.7
+  - @ctx-core/sass@12.0.6
+  - @ctx-core/store@27.0.6
+
 ## 12.0.11
 
 ### Patch Changes
