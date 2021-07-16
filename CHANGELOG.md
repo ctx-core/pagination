@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 12.0.8
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.3
+  - @ctx-core/dom@11.0.4
+  - @ctx-core/fontawesome@15.0.8
+  - @ctx-core/ripple-effect@12.0.4
+  - @ctx-core/sass@12.0.3
+  - @ctx-core/store@27.0.3
+
 ## 12.0.7
 
 ### Patch Changes
