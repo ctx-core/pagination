@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 12.0.13
+
+### Patch Changes
+
+- fix: cjs: load as a Promise
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.9
+  - @ctx-core/dom@11.0.10
+  - @ctx-core/fontawesome@15.0.13
+  - @ctx-core/ripple-effect@12.0.8
+  - @ctx-core/sass@12.0.7
+  - @ctx-core/store@27.0.7
+
 ## 12.0.12
 
 ### Patch Changes
