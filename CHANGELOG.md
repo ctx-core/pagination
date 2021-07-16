@@ -1,5 +1,11 @@
 # @ctx-core/pagination
 
+## 12.0.15
+
+### Patch Changes
+
+- - tsconfig.tsbuildinfo
+
 ## 12.0.14
 
 ### Patch Changes
