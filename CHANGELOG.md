@@ -1,5 +1,13 @@
 # @ctx-core/pagination
 
+## 12.0.24
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/ripple-effect@12.0.18
+
 ## 12.0.23
 
 ### Patch Changes
