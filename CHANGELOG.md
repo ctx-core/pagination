@@ -1,5 +1,14 @@
 # @ctx-core/pagination
 
+## 12.0.89
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/ripple-effect@12.0.58
+  - @ctx-core/sass@12.0.37
+
 ## 12.0.88
 
 ### Patch Changes
