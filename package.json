@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/pagination",
-	"version": "12.0.91",
+	"version": "12.0.92",
 	"description": "ctx-core pagination",
 	"keywords": [
 		"ctx-core",
@@ -38,16 +38,16 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "workspace:^23.0.21",
-		"@ctx-core/dom": "workspace:^11.0.26",
-		"@ctx-core/fontawesome": "workspace:^15.0.56",
-		"@ctx-core/ripple-effect": "workspace:^12.0.60",
-		"@ctx-core/sass": "workspace:^12.0.37",
+		"@ctx-core/dom": "workspace:^11.0.27",
+		"@ctx-core/fontawesome": "workspace:^15.0.57",
+		"@ctx-core/ripple-effect": "workspace:^12.0.61",
+		"@ctx-core/sass": "workspace:^12.0.38",
 		"@ctx-core/store": "workspace:^27.0.33",
 		"esm": "^3.2.25",
 		"svelte": "3.43.1"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.74",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.76",
 		"typescript": "^4.4.3"
 	},
 	"publishConfig": {
