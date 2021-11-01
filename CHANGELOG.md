@@ -1,5 +1,23 @@
 # @ctx-core/pagination
 
+## 12.0.93
+
+### Patch Changes
+
+- typescript: ^4.4.3 -> ^4.4.4
+- svelte: 3.43.1 -> 3.44.0
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.22
+  - @ctx-core/dom@11.0.28
+  - @ctx-core/fontawesome@15.0.58
+  - @ctx-core/ripple-effect@12.0.62
+  - @ctx-core/sass@12.0.39
+  - @ctx-core/store@27.0.34
+
 ## 12.0.92
 
 ### Patch Changes
