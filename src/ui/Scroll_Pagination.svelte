@@ -1,14 +1,14 @@
-<script>
-import { writable$ } from '@ctx-core/store'
-import { RippleEffect, onclick_ripple_effect } from '@ctx-core/ripple-effect'
+<script lang="ts">
 import { onclick_scroll_anchor } from '@ctx-core/dom'
-export let prev_section = null
-export let next_section = null
-export let section_a = []
-export let ripple_color = null
-const prev_section_loaded$ = writable$(null)
-const next_section_loaded$ = writable$(null)
-let prev_section_link: HTMLAnchorElement, next_section_link: HTMLAnchorElement
+import { RippleEffect, onclick_ripple_effect } from '@ctx-core/ripple-effect'
+import { writable$ } from '@ctx-core/store'
+export let next_section:HTMLElement|null = null
+export let prev_section:HTMLElement|null = null
+export let ripple_color:string|null = null
+export let section_a:HTMLElement[] = []
+const prev_section_loaded$ = writable$<boolean>(false)
+const next_section_loaded$ = writable$<boolean>(false)
+let prev_section_link:HTMLAnchorElement, next_section_link:HTMLAnchorElement
 $: section_a, update_section_navigation()
 update_section_navigation()
 function update_section_navigation() {
