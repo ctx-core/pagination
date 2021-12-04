@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 12.0.103
+
+### Patch Changes
+
+- @swc/core: ^1.2.116 -> ^1.2.117
+- Updated dependencies
+  - @ctx-core/array@23.0.29
+  - @ctx-core/dom@11.0.36
+  - @ctx-core/fontawesome@15.1.7
+  - @ctx-core/ripple-effect@12.0.71
+  - @ctx-core/sass@12.1.5
+  - @ctx-core/store@27.0.42
+
 ## 12.0.102
 
 ### Patch Changes
