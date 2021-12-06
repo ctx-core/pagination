@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 12.0.106
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/array@23.0.32
+  - @ctx-core/dom@11.0.39
+  - @ctx-core/fontawesome@15.1.12
+  - @ctx-core/ripple-effect@12.0.74
+  - @ctx-core/sass@12.1.7
+  - @ctx-core/store@27.0.45
+
 ## 12.0.105
 
 ### Patch Changes
