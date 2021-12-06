@@ -1,5 +1,16 @@
 # @ctx-core/pagination
 
+## 12.0.105
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies
+  - @ctx-core/array@23.0.31
+  - @ctx-core/dom@11.0.38
+  - @ctx-core/ripple-effect@12.0.73
+  - @ctx-core/store@27.0.44
+
 ## 12.0.104
 
 ### Patch Changes
