@@ -1,1 +1,2 @@
-export * from './ui/index.js'
+import 'svelte'
+export * as Scroll_Pagination from './Scroll_Pagination.svelte'

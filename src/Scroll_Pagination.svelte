@@ -1,6 +1,7 @@
 <script lang="ts">
 import { onclick_scroll_anchor } from '@ctx-core/dom'
-import { RippleEffect, onclick_ripple_effect } from '@ctx-core/ripple-effect'
+import { onclick_ripple_effect } from '@ctx-core/ripple-effect'
+import { RippleEffect } from '@ctx-core/ripple-effect-ui-svelte'
 import { writable$ } from '@ctx-core/store'
 export let next_section:HTMLElement|null = null
 export let prev_section:HTMLElement|null = null
@@ -99,7 +100,7 @@ function set_loaded() {
 	</div>
 </div>
 
-<style type="text/scss">
+<style lang="scss">
 :global(.Scroll_Pagination) {
 	position: fixed;
 	bottom: 0;
