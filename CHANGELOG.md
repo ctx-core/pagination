@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 12.0.114
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/array@23.0.36
+  - @ctx-core/dom@11.0.43
+  - @ctx-core/fontawesome@16.0.4
+  - @ctx-core/ripple-effect@13.0.2
+  - @ctx-core/sass@12.1.11
+  - @ctx-core/store@27.0.50
+
 ## 12.0.113
 
 ### Patch Changes
