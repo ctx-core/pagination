@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 12.0.113
+
+### Patch Changes
+
+- fix: package.json: exports
+- Updated dependencies
+  - @ctx-core/array@23.0.35
+  - @ctx-core/dom@11.0.42
+  - @ctx-core/fontawesome@16.0.3
+  - @ctx-core/ripple-effect@13.0.1
+  - @ctx-core/sass@12.1.10
+  - @ctx-core/store@27.0.49
+
 ## 12.0.112
 
 ### Patch Changes
