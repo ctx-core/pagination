@@ -1,5 +1,11 @@
 # @ctx-core/pagination
 
+## 12.0.111
+
+### Patch Changes
+
+- update dependencies
+
 ## 12.0.110
 
 ### Patch Changes
