@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 12.0.112
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/array@23.0.34
+  - @ctx-core/dom@11.0.41
+  - @ctx-core/fontawesome@16.0.2
+  - @ctx-core/ripple-effect@13.0.1
+  - @ctx-core/sass@12.1.9
+  - @ctx-core/store@27.0.48
+
 ## 12.0.111
 
 ### Patch Changes
