@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 12.0.117
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/array@23.0.39
+  - @ctx-core/dom@11.0.46
+  - @ctx-core/fontawesome@16.0.7
+  - @ctx-core/ripple-effect@13.0.5
+  - @ctx-core/sass@12.1.14
+  - @ctx-core/store@27.0.53
+
 ## 12.0.116
 
 ### Patch Changes
