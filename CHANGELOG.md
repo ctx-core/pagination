@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 12.0.118
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/array@23.0.40
+  - @ctx-core/dom@11.0.47
+  - @ctx-core/fontawesome@16.0.8
+  - @ctx-core/ripple-effect@13.0.6
+  - @ctx-core/sass@12.1.15
+  - @ctx-core/store@27.0.54
+
 ## 12.0.117
 
 ### Patch Changes
