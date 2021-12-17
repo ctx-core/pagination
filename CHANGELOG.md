@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 12.0.119
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- Updated dependencies
+  - @ctx-core/array@23.0.41
+  - @ctx-core/dom@11.0.48
+  - @ctx-core/fontawesome@16.0.9
+  - @ctx-core/ripple-effect@13.0.7
+  - @ctx-core/sass@12.1.16
+  - @ctx-core/store@27.0.55
+
 ## 12.0.118
 
 ### Patch Changes
