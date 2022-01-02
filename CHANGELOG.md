@@ -1,5 +1,19 @@
 # @ctx-core/pagination
 
+## 13.0.7
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/dom@11.1.2
+  - @ctx-core/fontawesome@16.0.11
+  - @ctx-core/nanostores@0.3.1
+  - @ctx-core/ripple-effect@13.1.1
+  - @ctx-core/ripple-effect-ui-svelte@1.0.12
+  - @ctx-core/sass@12.1.19
+  - @ctx-core/svelte@10.1.2
+
 ## 13.0.6
 
 ### Patch Changes
