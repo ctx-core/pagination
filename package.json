@@ -37,7 +37,7 @@
 	"dependencies": {
 		"@ctx-core/array": "*",
 		"@ctx-core/dom": "^11.1.7",
-		"@ctx-core/fontawesome": "^16.0.18",
+		"@ctx-core/fontawesome": "^16.0.19",
 		"@ctx-core/nanostores": "^0.7.1",
 		"@ctx-core/ripple-effect": "^13.1.5",
 		"@ctx-core/ripple-effect-ui-svelte": "^1.0.17",
