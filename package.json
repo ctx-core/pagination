@@ -33,10 +33,10 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.1.4",
-		"@ctx-core/dom": "^11.1.11",
+		"@ctx-core/array": "^26.1.5",
+		"@ctx-core/dom": "^11.1.12",
 		"@ctx-core/fontawesome": "^16.0.23",
-		"@ctx-core/nanostores": "^1.0.12",
+		"@ctx-core/nanostores": "^1.0.13",
 		"@ctx-core/ripple-effect": "^13.1.8",
 		"@ctx-core/ripple-effect-ui-svelte": "^1.0.20",
 		"@ctx-core/sass": "^12.1.35",
