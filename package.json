@@ -39,7 +39,7 @@
 		"@ctx-core/nanostores": "^1.0.14",
 		"@ctx-core/ripple-effect": "^13.1.8",
 		"@ctx-core/ripple-effect-ui-svelte": "^1.0.21",
-		"@ctx-core/sass": "^12.1.36",
+		"@ctx-core/sass": "^12.1.37",
 		"@ctx-core/svelte": "^10.1.13"
 	},
 	"devDependencies": {
