@@ -1,5 +1,17 @@
 # @ctx-core/pagination
 
+## 13.0.43
+
+### Patch Changes
+
+- tslib: ^2.3.1 -> ^2.4.0
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@1.0.14
+  - @ctx-core/sass@12.1.36
+  - @ctx-core/ripple-effect-ui-svelte@1.0.21
+
 ## 13.0.42
 
 ### Patch Changes
