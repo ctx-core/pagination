@@ -1,14 +1,14 @@
 <script lang="ts">
 import { onclick_scroll_anchor } from '@ctx-core/dom'
-import { atom$ } from '@ctx-core/nanostores'
+import { atom_ } from '@ctx-core/nanostores'
 import { onclick_ripple_effect } from '@ctx-core/ripple-effect'
 import { RippleEffect } from '@ctx-core/ripple-effect-ui-svelte'
 export let next_section:HTMLElement|null = null
 export let prev_section:HTMLElement|null = null
 export let ripple_color:string|null = null
 export let section_a:HTMLElement[] = []
-const prev_section_loaded$ = atom$<boolean>(false)
-const next_section_loaded$ = atom$<boolean>(false)
+const prev_section_loaded$ = atom_<boolean>(false)
+const next_section_loaded$ = atom_<boolean>(false)
 let prev_section_link:HTMLAnchorElement, next_section_link:HTMLAnchorElement
 $: section_a, update_section_navigation()
 update_section_navigation()
