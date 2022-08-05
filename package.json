@@ -38,8 +38,8 @@
 		"@ctx-core/fontawesome": "^16.0.31",
 		"@ctx-core/nanostores": "^1.4.8",
 		"@ctx-core/ripple-effect": "^13.1.12",
-		"@ctx-core/ripple-effect-ui-svelte": "^1.0.26",
-		"@ctx-core/sass": "^12.1.56",
+		"@ctx-core/ripple-effect-ui-svelte": "^1.0.27",
+		"@ctx-core/sass": "^12.1.57",
 		"@ctx-core/svelte": "^12.0.3"
 	},
 	"devDependencies": {
