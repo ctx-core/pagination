@@ -33,14 +33,14 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.7.4",
-		"@ctx-core/dom": "^11.1.24",
+		"@ctx-core/array": "^26.7.6",
+		"@ctx-core/dom": "^11.1.26",
 		"@ctx-core/fontawesome": "^16.0.31",
-		"@ctx-core/nanostores": "^1.4.8",
+		"@ctx-core/nanostores": "^1.4.10",
 		"@ctx-core/ripple-effect": "^13.1.12",
 		"@ctx-core/ripple-effect-ui-svelte": "^1.0.27",
 		"@ctx-core/sass": "^12.1.58",
-		"@ctx-core/svelte": "^12.0.3"
+		"@ctx-core/svelte": "^12.0.4"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
