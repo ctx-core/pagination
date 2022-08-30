@@ -39,18 +39,18 @@
 		"@ctx-core/nanostores": "^1.4.11",
 		"@ctx-core/ripple-effect": "^13.1.13",
 		"@ctx-core/ripple-effect-ui-svelte": "^1.0.28",
-		"@ctx-core/sass": "^12.1.60",
+		"@ctx-core/sass": "^12.1.61",
 		"@ctx-core/svelte": "^12.0.5"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.244",
+		"@swc/core": "^1.2.245",
 		"rimraf": "^3.0.2",
 		"svelte": "^3.49.0",
 		"svelte-preprocess": "^4.10.7",
-		"svelte2tsx": "^0.5.15",
+		"svelte2tsx": "^0.5.16",
 		"tslib": "^2.4.0",
 		"typescript": "next"
 	},
