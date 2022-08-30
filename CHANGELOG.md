@@ -1,5 +1,11 @@
 # @ctx-core/pagination
 
+## 13.0.71
+
+### Patch Changes
+
+- 5e7050a9f: svelte2tsx: ^0.5.15 -> ^0.5.16
+
 ## 13.0.70
 
 ### Patch Changes
