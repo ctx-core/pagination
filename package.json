@@ -36,7 +36,7 @@
 		"@ctx-core/array": "^26.7.8",
 		"@ctx-core/dom": "^11.1.28",
 		"@ctx-core/fontawesome": "^16.0.31",
-		"@ctx-core/nanostores": "^2.2.0",
+		"@ctx-core/nanostores": "^2.2.1",
 		"@ctx-core/ripple-effect": "^13.1.13",
 		"@ctx-core/ripple-effect-ui-svelte": "^1.0.28",
 		"@ctx-core/sass": "^12.1.67",
