@@ -1,5 +1,14 @@
 # @ctx-core/pagination
 
+## 13.0.120
+
+### Patch Changes
+
+- rimraf: ^3.0.2 -> ^4.0.1
+- Updated dependencies
+  - @ctx-core/fontawesome@16.0.47
+  - @ctx-core/sass@12.1.86
+
 ## 13.0.119
 
 ### Patch Changes
