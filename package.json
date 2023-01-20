@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/pagination",
-	"version": "13.0.122",
+	"version": "13.0.123",
 	"description": "ctx-core pagination",
 	"keywords": [
 		"ctx-core",
@@ -49,7 +49,7 @@
 		"@swc/core": "^1.3.27",
 		"rimraf": "^4.1.1",
 		"svelte": "^3.55.1",
-		"svelte-preprocess": "^5.0.0",
+		"svelte-preprocess": "^5.0.1",
 		"svelte2tsx": "^0.6.0",
 		"tslib": "^2.4.1",
 		"typescript": "next"

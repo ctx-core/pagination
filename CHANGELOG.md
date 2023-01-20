@@ -1,5 +1,11 @@
 # @ctx-core/pagination
 
+## 13.0.123
+
+### Patch Changes
+
+- svelte-preprocess: ^5.0.0 -> ^5.0.1
+
 ## 13.0.122
 
 ### Patch Changes
