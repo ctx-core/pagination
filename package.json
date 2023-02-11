@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/pagination",
-	"version": "13.0.150",
+	"version": "13.0.151",
 	"description": "ctx-core pagination",
 	"keywords": [
 		"ctx-core",
@@ -33,14 +33,14 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.9.0",
+		"@ctx-core/array": "^26.10.0",
 		"@ctx-core/dom": "^11.2.34",
 		"@ctx-core/fontawesome": "^16.0.63",
 		"@ctx-core/nanostores": "^2.2.22",
 		"@ctx-core/ripple-effect": "^13.1.31",
 		"@ctx-core/ripple-effect-ui-svelte": "^1.0.48",
-		"@ctx-core/sass": "^12.1.97",
-		"@ctx-core/svelte": "^13.4.25"
+		"@ctx-core/sass": "^12.1.98",
+		"@ctx-core/svelte": "^13.4.26"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
