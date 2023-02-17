@@ -1,5 +1,17 @@
 # @ctx-core/pagination
 
+## 13.1.0
+
+### Minor Changes
+
+- Scroll_Pagination: + types: extends SvelteComponentTyped
+- extract _.js & _.d.ts into directories
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/dom@11.4.0
+
 ## 13.0.162
 
 ### Patch Changes

@@ -1,19 +1,26 @@
-<script lang="ts">
-import { onclick_scroll_anchor } from '@ctx-core/dom'
+<script>
+import { scroll__anchor__onclick } from '@ctx-core/dom'
 import { atom_ } from '@ctx-core/nanostores'
 import { onclick_ripple_effect } from '@ctx-core/ripple-effect'
 import { RippleEffect } from '@ctx-core/ripple-effect-ui-svelte'
-export let next_section:HTMLElement|null = null
-export let prev_section:HTMLElement|null = null
-export let ripple_color:string|null = null
-export let section_a:HTMLElement[] = []
-const prev_section_loaded$ = atom_<boolean>(false)
-const next_section_loaded$ = atom_<boolean>(false)
-let prev_section_link:HTMLAnchorElement, next_section_link:HTMLAnchorElement
-$: section_a, update_section_navigation()
-update_section_navigation()
-function update_section_navigation() {
-	unset_loaded()
+/** @type {HTMLElement} */
+export let next_section = null
+/** @type {HTMLElement} */
+export let prev_section = null
+/** @type {string|null} */
+export let ripple_color = null
+/** @type {HTMLElement[]} */
+export let section_a = []
+const prev_section__loaded_ = atom_(false)
+const next_section__loaded_ = atom_(false)
+/** @type {HTMLAnchorElement} */
+let prev_section_link
+/** @type {HTMLAnchorElement} */
+let next_section_link
+$: section_a, section_navigation__update()
+section_navigation__update()
+function section_navigation__update() {
+	loaded__unset()
 	if (section_a) {
 		for (let i = 0; i < section_a.length; i += 1) {
 			const section = section_a[i]
@@ -26,7 +33,7 @@ function update_section_navigation() {
 					? section
 					: section_a[i - 1]
 				next_section = section_a[i + 1]
-				set_loaded()
+				loaded__set()
 				return
 			}
 		}
@@ -34,28 +41,28 @@ function update_section_navigation() {
 	prev_section = null
 	next_section = null
 }
-function onclick_navigation(event) {
-	onclick_scroll_anchor(event)
+function navigation__onclick(event) {
+	scroll__anchor__onclick(event)
 	if (section_a) {
 		if (ripple_color) onclick_ripple_effect(event)
-		update_section_navigation()
+		section_navigation__update()
 	}
 }
-function unset_loaded() {
-	prev_section_loaded$.set(false)
-	next_section_loaded$.set(false)
+function loaded__unset() {
+	prev_section__loaded_.set(false)
+	next_section__loaded_.set(false)
 }
-function set_loaded() {
+function loaded__set() {
 	if (prev_section_link) {
-		prev_section_loaded$.set(true)
+		prev_section__loaded_.set(true)
 	}
 	if (next_section_link) {
-		next_section_loaded$.set(true)
+		next_section__loaded_.set(true)
 	}
 }
 </script>
 
-<svelte:window on:scroll="{update_section_navigation}"></svelte:window>
+<svelte:window on:scroll={section_navigation__update}></svelte:window>
 
 <RippleEffect></RippleEffect>
 
@@ -65,10 +72,10 @@ function set_loaded() {
 			<a
 				bind:this={prev_section_link}
 				class="prev_section"
-				class:loaded={$prev_section_loaded$}
+				class:loaded={$prev_section__loaded_}
 				href="#{prev_section.id}"
 				{ripple_color}
-				on:click={onclick_navigation}
+				on:click={navigation__onclick}
 			>
 				<div class="prev_section__icon section__icon">
 					<slot name="icon-up"></slot>
@@ -83,10 +90,10 @@ function set_loaded() {
 			<a
 				bind:this={next_section_link}
 				class="next_section"
-				class:loaded={$next_section_loaded$}
+				class:loaded={$next_section__loaded_}
 				href="#{next_section.id}"
 				{ripple_color}
-				on:click={onclick_navigation}
+				on:click={navigation__onclick}
 			>
 				<div class="next_section__icon section__icon">
 					<slot name="icon-down"></slot>
@@ -100,7 +107,7 @@ function set_loaded() {
 	</div>
 </div>
 
-<style lang="scss">
+<style>
 :global(.Scroll_Pagination) {
 	position: fixed;
 	bottom: 0;
@@ -109,17 +116,19 @@ function set_loaded() {
 	width: 100%;
 	font-size: 1rem;
 	overflow: hidden;
-	&.lower-left {
+}
+	:global(.Scroll_Pagination.lower-left) {
 		bottom: 0;
 		left: 0;
 		right: auto;
 	}
-	.outer-container {
+	:global(.Scroll_Pagination.outer-container) {
 		display: flex;
 		flex-direction: row;
 		height: 100%;
 		margin: auto;
-		> a {
+	}
+		:global(.Scroll_Pagination.outer-container > a) {
 			position: relative;
 			display: flex;
 			flex-direction: row;
@@ -133,41 +142,40 @@ function set_loaded() {
 			text-decoration: none;
 			white-space: nowrap;
 			user-select: none;
-			&.prev_section {
+		}
+			:global(.Scroll_Pagination.outer-container > a.prev_section) {
 				text-align: left;
 				padding-right: 12px;
-				.section__icon {
+			}
+				:global(.Scroll_Pagination.outer-container > a.prev_section .section__icon) {
 					float: left;
 					margin: 9px 8px 0 3px;
 				}
-				.ripple-effect {
+				:global(.Scroll_Pagination.outer-container > a.prev_section .ripple-effect) {
 					left: 0;
 				}
-			}
-			&.next_section {
+			:global(.Scroll_Pagination.outer-container > a.next_section) {
 				flex-direction: row-reverse;
 				text-align: right;
 				padding-left: 12px;
-				.section__icon {
+			}
+				:global(.Scroll_Pagination.outer-container > a.next_section .section__icon) {
 					float: right;
 					margin: 9px 3px 0 8px;
 				}
-				.ripple-effect {
+				:global(.Scroll_Pagination.outer-container > a.next_section .ripple-effect) {
 					right: 0;
 				}
+			:global(.Scroll_Pagination.outer-container > a.loaded div) {
+				opacity: 1;
+				transition: opacity .25s ease-out;
 			}
-			&.loaded {
-				div {
-					opacity: 1;
-					transition: opacity .25s ease-out;
-				}
-			}
-			.ripple-effect {
+			:global(.Scroll_Pagination.outer-container > a .ripple-effect) {
 				position: absolute;
 				bottom: 0;
 				height: 2px;
 			}
-			.section__icon {
+			:global(.Scroll_Pagination.outer-container > a .section__icon) {
 				display: flex;
 				flex-direction: column;
 				align-items: flex-start;
@@ -178,25 +186,22 @@ function set_loaded() {
 				padding-bottom: 1rem;
 				background-size: contain;
 			}
-			.content {
+			:global(.Scroll_Pagination.outer-container > a .content) {
 				flex: 1;
-				.label {
+			}
+				:global(.Scroll_Pagination.outer-container > a .content .label) {
 					font-size: .75em;
 					line-height: 1em;
 					margin-bottom: 1px;
 					vertical-align: top;
 				}
-				.title {
+				:global(.Scroll_Pagination.outer-container > a .content .title) {
 					line-height: 1.25em;
 					overflow: hidden;
 					text-overflow: ellipsis;
 					white-space: nowrap;
 				}
-			}
-			div {
+			:global(.Scroll_Pagination.outer-container > a div) {
 				opacity: 0;
 			}
-		}
-	}
-}
 </style>
