@@ -1,5 +1,11 @@
 # @ctx-core/pagination
 
+## 13.1.1
+
+### Patch Changes
+
+- fix: exports
+
 ## 13.1.0
 
 ### Minor Changes
