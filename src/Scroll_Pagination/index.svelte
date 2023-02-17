@@ -1,7 +1,7 @@
 <script>
 import { scroll__anchor__onclick } from '@ctx-core/dom'
 import { atom_ } from '@ctx-core/nanostores'
-import { onclick_ripple_effect } from '@ctx-core/ripple-effect'
+import { ripple_effect__onclick } from '@ctx-core/ripple-effect'
 import { RippleEffect } from '@ctx-core/ripple-effect-ui-svelte'
 /** @type {HTMLElement} */
 export let next_section = null
@@ -44,7 +44,7 @@ function section_navigation__update() {
 function navigation__onclick(event) {
 	scroll__anchor__onclick(event)
 	if (section_a) {
-		if (ripple_color) onclick_ripple_effect(event)
+		if (ripple_color) ripple_effect__onclick(event)
 		section_navigation__update()
 	}
 }
