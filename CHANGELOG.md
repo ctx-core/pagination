@@ -1,5 +1,12 @@
 # @ctx-core/pagination
 
+## 13.1.20
+
+### Patch Changes
+
+- @ctx-core/sass: ^12.2.8 -> ^12.2.9
+- @ctx-core/fontawesome: ^16.1.9 -> ^16.1.10
+
 ## 13.1.19
 
 ### Patch Changes
