@@ -1,5 +1,16 @@
 # @ctx-core/pagination
 
+## 13.1.48
+
+### Patch Changes
+
+- @ctx-core/svelte: ^13.4.46 -> ^13.4.47
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@3.1.6
+  - @ctx-core/array@26.11.18
+  - @ctx-core/dom@11.4.31
+
 ## 13.1.47
 
 ### Patch Changes
