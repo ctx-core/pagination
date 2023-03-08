@@ -1,5 +1,14 @@
 # @ctx-core/pagination
 
+## 13.1.55
+
+### Patch Changes
+
+- @ctx-core/array: ^26.11.20 -> ^26.11.21
+- Updated dependencies
+  - @ctx-core/sass@12.2.26
+  - @ctx-core/svelte@13.4.51
+
 ## 13.1.54
 
 ### Patch Changes
