@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/pagination",
-	"version": "13.1.72",
+	"version": "13.1.73",
 	"description": "ctx-core pagination",
 	"keywords": [
 		"ctx-core",
@@ -40,8 +40,8 @@
 		"@ctx-core/ripple-effect": "^13.2.19",
 		"@ctx-core/ripple-effect-ui-svelte": "^1.0.71",
 		"@ctx-core/sass": "^12.2.33",
-		"@ctx-core/svelte": "^13.4.53",
-		"svelte": "^3.56.0"
+		"@ctx-core/svelte": "^13.4.54",
+		"svelte": "^3.57.0"
 	},
 	"devDependencies": {
 		"c8": "^7.13.0",
