@@ -1,5 +1,12 @@
 # @ctx-core/pagination
 
+## 13.1.114
+
+### Patch Changes
+
+- @ctx-core/fontawesome: ^16.1.49 -> ^16.1.50
+- @ctx-core/dom: ^14.1.9 -> ^14.1.10
+
 ## 13.1.113
 
 ### Patch Changes
