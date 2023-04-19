@@ -1,5 +1,20 @@
 # @ctx-core/pagination
 
+## 13.1.146
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/array@26.12.32
+  - @ctx-core/dom@14.1.31
+  - @ctx-core/fontawesome@16.1.73
+  - @ctx-core/nanostores@3.2.22
+  - @ctx-core/ripple-effect@13.2.48
+  - @ctx-core/ripple-effect-ui-svelte@1.0.100
+  - @ctx-core/sass@12.2.69
+  - @ctx-core/svelte@13.4.86
+
 ## 13.1.145
 
 ### Patch Changes
