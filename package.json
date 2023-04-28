@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/pagination",
-	"version": "13.1.152",
+	"version": "13.1.153",
 	"description": "ctx-core pagination",
 	"keywords": [
 		"ctx-core",
@@ -33,10 +33,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.12.32",
-		"@ctx-core/dom": "^14.1.32",
+		"@ctx-core/array": "^26.12.33",
+		"@ctx-core/dom": "^14.1.33",
 		"@ctx-core/fontawesome": "^16.1.74",
-		"@ctx-core/nanostores": "^3.2.23",
+		"@ctx-core/nanostores": "^3.3.0",
 		"@ctx-core/ripple-effect": "^13.2.49",
 		"@ctx-core/ripple-effect-ui-svelte": "^1.0.101",
 		"@ctx-core/sass": "^12.2.73",
