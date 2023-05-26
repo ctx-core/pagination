@@ -1,5 +1,11 @@
 # @ctx-core/pagination
 
+## 13.1.179
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^4.0.3 -> ^4.0.4
+
 ## 13.1.178
 
 ### Patch Changes
