@@ -1,5 +1,11 @@
 # @ctx-core/pagination
 
+## 13.1.191
+
+### Patch Changes
+
+- @ctx-core/svelte: ^13.7.0 -> ^13.8.0
+
 ## 13.1.190
 
 ### Patch Changes
