@@ -1,5 +1,13 @@
 # @ctx-core/pagination
 
+## 13.1.232
+
+### Patch Changes
+
+- svelte: ^3.59.1 -> ^3.59.2
+- Updated dependencies
+  - @ctx-core/svelte@14.1.10
+
 ## 13.1.231
 
 ### Patch Changes
