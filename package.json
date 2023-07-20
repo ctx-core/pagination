@@ -41,7 +41,7 @@
 		"@ctx-core/ripple-effect-ui-svelte": "^1.0.113",
 		"@ctx-core/sass": "^12.2.98",
 		"@ctx-core/svelte": "^14.1.14",
-		"svelte": "^4.0.5"
+		"svelte": "^4.1.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.0",
