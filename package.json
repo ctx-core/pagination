@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/pagination",
-	"version": "13.1.261",
+	"version": "13.1.262",
 	"description": "ctx-core pagination",
 	"keywords": [
 		"ctx-core",
@@ -36,7 +36,7 @@
 		"@ctx-core/array": "^26.12.44",
 		"@ctx-core/dom": "^14.1.56",
 		"@ctx-core/fontawesome": "^16.1.122",
-		"@ctx-core/nanostores": "^5.2.9",
+		"@ctx-core/nanostores": "^6.0.0",
 		"@ctx-core/ripple-effect": "^13.2.61",
 		"@ctx-core/ripple-effect-ui-svelte": "^1.0.113",
 		"@ctx-core/sass": "^12.2.100",
