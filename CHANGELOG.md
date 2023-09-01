@@ -1,5 +1,18 @@
 # @ctx-core/pagination
 
+## 13.1.278
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^6.0.6 -> ^6.0.7
+- @ctx-core/array: ^26.15.0 -> ^26.15.1
+- @ctx-core/dom: ^14.1.62 -> ^14.1.63
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/sass@12.2.113
+  - @ctx-core/svelte@14.1.22
+
 ## 13.1.277
 
 ### Patch Changes
