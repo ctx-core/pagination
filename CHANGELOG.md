@@ -1,5 +1,11 @@
 # @ctx-core/pagination
 
+## 13.1.320
+
+### Patch Changes
+
+- @ctx-core/dom: ^14.2.4 -> ^14.3.0
+
 ## 13.1.319
 
 ### Patch Changes
