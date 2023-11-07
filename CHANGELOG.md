@@ -1,5 +1,13 @@
 # @ctx-core/pagination
 
+## 13.1.329
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^7.0.5 -> ^7.0.6
+- Updated dependencies
+  - @ctx-core/sass@12.2.137
+
 ## 13.1.328
 
 ### Patch Changes
