@@ -1,5 +1,31 @@
 # @ctx-core/pagination
 
+## 13.2.0
+
+### Minor Changes
+
+- fix:types package.json exports
+- tsconfig:
+
+      "module": "ESNext"
+      "moduleResolution": "nodenext"
+      "target": "ESNext"
+
+### Patch Changes
+
+- package.json: - "svelte": "./src/index.js"
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@27.0.0
+  - @ctx-core/dom@15.1.0
+  - @ctx-core/fontawesome@16.2.0
+  - @ctx-core/nanostores@7.1.0
+  - @ctx-core/ripple-effect@13.3.0
+  - @ctx-core/ripple-effect-ui-svelte@1.1.0
+  - @ctx-core/sass@12.3.0
+  - @ctx-core/svelte@14.2.0
+
 ## 13.1.334
 
 ### Patch Changes

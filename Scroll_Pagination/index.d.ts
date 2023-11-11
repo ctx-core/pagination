@@ -1,5 +1,5 @@
-import { SvelteComponentTyped } from 'svelte'
-export class Scroll_Pagination extends SvelteComponentTyped<{
+import { SvelteComponent } from 'svelte'
+export class Scroll_Pagination extends SvelteComponent<{
 	class?:string
 	next_section?:HTMLElement
 	prev_section?:HTMLElement
