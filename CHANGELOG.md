@@ -1,5 +1,20 @@
 # @ctx-core/pagination
 
+## 13.2.3
+
+### Patch Changes
+
+- package.json: files: + \*.js
+- Updated dependencies
+  - @ctx-core/array@27.0.3
+  - @ctx-core/dom@15.1.3
+  - @ctx-core/fontawesome@16.2.3
+  - @ctx-core/nanostores@7.1.4
+  - @ctx-core/ripple-effect@13.3.3
+  - @ctx-core/ripple-effect-ui-svelte@1.1.3
+  - @ctx-core/sass@12.3.3
+  - @ctx-core/svelte@14.2.3
+
 ## 13.2.2
 
 ### Patch Changes
