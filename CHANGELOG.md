@@ -1,5 +1,20 @@
 # @ctx-core/pagination
 
+## 13.2.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/array@27.0.2
+  - @ctx-core/dom@15.1.2
+  - @ctx-core/fontawesome@16.2.2
+  - @ctx-core/nanostores@7.1.3
+  - @ctx-core/ripple-effect@13.3.2
+  - @ctx-core/ripple-effect-ui-svelte@1.1.2
+  - @ctx-core/sass@12.3.2
+  - @ctx-core/svelte@14.2.2
+
 ## 13.2.1
 
 ### Patch Changes
