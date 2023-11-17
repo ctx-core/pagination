@@ -1,5 +1,23 @@
 # @ctx-core/pagination
 
+## 13.2.14
+
+### Patch Changes
+
+- svelte: ^4.2.4 -> ^4.2.5
+- tsx: ^4.1.2 -> ^4.1.3
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/ripple-effect-ui-svelte@1.1.8
+  - @ctx-core/svelte@14.2.9
+  - @ctx-core/array@27.0.9
+  - @ctx-core/dom@15.1.9
+  - @ctx-core/fontawesome@16.2.9
+  - @ctx-core/nanostores@7.1.10
+  - @ctx-core/ripple-effect@13.3.8
+  - @ctx-core/sass@12.3.9
+
 ## 13.2.13
 
 ### Patch Changes
