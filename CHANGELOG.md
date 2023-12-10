@@ -1,5 +1,11 @@
 # @ctx-core/pagination
 
+## 13.2.82
+
+### Patch Changes
+
+- @ctx-core/ripple-effect-ui-svelte: ^1.1.43 -> ^1.1.44
+
 ## 13.2.81
 
 ### Patch Changes
