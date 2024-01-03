@@ -1,5 +1,11 @@
 # @ctx-core/pagination
 
+## 13.2.143
+
+### Patch Changes
+
+- @ctx-core/sass: ^12.3.72 -> ^12.3.73
+
 ## 13.2.142
 
 ### Patch Changes
