@@ -1,5 +1,13 @@
 # @ctx-core/pagination
 
+## 13.2.245
+
+### Patch Changes
+
+- @ctx-core/ripple-effect-ui-svelte: ^1.1.157 -> ^1.1.158
+- Updated dependencies
+  - @ctx-core/fontawesome@16.2.171
+
 ## 13.2.244
 
 ### Patch Changes
