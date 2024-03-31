@@ -1,5 +1,19 @@
 # @ctx-core/pagination
 
+## 13.2.265
+
+### Patch Changes
+
+- @ctx-core/ripple-effect: ^13.3.164 -> ^13.3.165
+- @ctx-core/dom: ^15.3.58 -> ^15.3.59
+- @ctx-core/sass: ^12.3.170 -> ^12.3.171
+- @ctx-core/nanostores: ^10.0.112 -> ^10.0.113
+- @ctx-core/svelte: ^16.0.114 -> ^16.0.115
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/fontawesome@16.2.188
+  - @ctx-core/ripple-effect-ui-svelte@1.1.175
+
 ## 13.2.264
 
 ### Patch Changes
