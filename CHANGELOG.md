@@ -1,5 +1,19 @@
 # @ctx-core/pagination
 
+## 13.2.354
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - @ctx-core/dom@15.3.104
+  - @ctx-core/fontawesome@16.2.254
+  - @ctx-core/nanostores@10.0.159
+  - @ctx-core/ripple-effect@13.3.210
+  - @ctx-core/ripple-effect-ui-svelte@1.1.239
+  - @ctx-core/sass@12.3.224
+  - @ctx-core/svelte@16.0.164
+
 ## 13.2.353
 
 ### Patch Changes
